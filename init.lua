@@ -92,6 +92,9 @@ vim.o.confirm = true
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+-- Open a terminal with vertical split
+vim.api.nvim_set_keymap('n', '<leader>te', ':vsplit | terminal<CR>', { noremap = true, silent = true })
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
