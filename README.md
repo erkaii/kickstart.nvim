@@ -1,5 +1,22 @@
 # kickstart.nvim
 
+## 2025.12.17
+For installing newer version of NeoVim on Ubuntu with Apt. 
+
+```bash
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt update
+sudo apt install neovim
+```
+
+or, nightly version:
+
+```bash
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt update
+sudo apt install neovim
+```
+
 ## Introduction
 
 A starting point for Neovim that is:
